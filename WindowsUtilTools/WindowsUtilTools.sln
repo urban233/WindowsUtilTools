@@ -2,6 +2,11 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "Utils\Utils.csproj", "{2059269A-47D1-49D4-8D05-79362DE457CB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsCli", "WindowsCli\WindowsCli.csproj", "{07291238-4BBE-489D-83FA-388FEBE454B4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2059269A-47D1-49D4-8D05-79362DE457CB} = {2059269A-47D1-49D4-8D05-79362DE457CB}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +17,9 @@ Global
 		{2059269A-47D1-49D4-8D05-79362DE457CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2059269A-47D1-49D4-8D05-79362DE457CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2059269A-47D1-49D4-8D05-79362DE457CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07291238-4BBE-489D-83FA-388FEBE454B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07291238-4BBE-489D-83FA-388FEBE454B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07291238-4BBE-489D-83FA-388FEBE454B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07291238-4BBE-489D-83FA-388FEBE454B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
