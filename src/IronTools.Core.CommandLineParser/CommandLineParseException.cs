@@ -1,4 +1,4 @@
-﻿namespace Utils.CommandLineParser;
+﻿namespace IronTools.Core.CommandLineParser;
 
 public class CommandLineParseException : Exception
 {

@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Security.Principal;
 
-namespace Utils.Cmd;
+namespace IronTools.Core.Cmd.Utils;
 
 public static class CmdUtils
 {

@@ -1,4 +1,4 @@
-﻿namespace Utils.CommandLineParser;
+﻿namespace IronTools.Core.CommandLineParser;
 
 // Attribute to mark command line options
 [AttributeUsage(AttributeTargets.Property)]

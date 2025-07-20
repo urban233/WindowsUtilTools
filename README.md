@@ -1,6 +1,6 @@
-# WindowsUtilTools
+# Iron Tools for Windows
 
-WindowsUtilTools is a collection of powerful and convenient utilities designed to simplify and enhance various Microsoft Windows operations. This toolkit provides command-line tools and utilities for managing Windows Subsystem for Linux (WSL), PowerShell, and other Windows features with ease and elevated privileges.
+Iron Tools for Windows is a collection of powerful and convenient utilities designed to simplify and enhance various Microsoft Windows operations. This toolkit provides command-line tools and utilities for managing Windows Subsystem for Linux (WSL), PowerShell, and other Windows features with ease and elevated privileges.
 
 ### Supported Platforms
 
@@ -13,11 +13,6 @@ WindowsUtilTools is a collection of powerful and convenient utilities designed t
 - **Command Line Parsing:** Robust command-line argument parsing with support for short and long options.
 - **Administrator Privilege Handling:** Utilities to restart processes with elevated (administrator) rights.
 
-## C# Projects
-
-- **WindowsCli:** A command-line interface application that exposes Windows utilities such as WSL2 installation and status checking.
-- **Utils:** A utility library containing core functionalities like command execution, privilege elevation, and command-line parsing.
-
 ## Getting Started
 
 ### Prerequisites
@@ -28,7 +23,7 @@ WindowsUtilTools is a collection of powerful and convenient utilities designed t
 ### Building the Solution
 
 ```powershell
-cd WindowsUtilTools
+cd IronToolsForWindows
 dotnet build
 ```
 

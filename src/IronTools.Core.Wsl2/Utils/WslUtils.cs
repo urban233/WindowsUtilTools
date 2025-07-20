@@ -1,7 +1,6 @@
-using System.Diagnostics;
-using Utils.Cmd;
+using IronTools.Core.Cmd.Utils;
 
-namespace Utils.Wsl2;
+namespace IronTools.Core.Wsl2.Utils;
 
 public class WslUtils
 {

@@ -1,4 +1,6 @@
-﻿namespace Utils.CommandLineParser;
+﻿using IronTools.Core.CommandLineParser;
+
+namespace IronTools.Cli.Wsl2Ctrl;
 
 public class ProgramOptions
 {

@@ -1,7 +1,7 @@
 ﻿using System.Reflection;
 using System.Text;
 
-namespace Utils.CommandLineParser;
+namespace IronTools.Core.CommandLineParser;
 
 public class CommandLineParser<T> where T : class, new()
     {

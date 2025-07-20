@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace Utils.Cmd;
+namespace IronTools.Core.Cmd.Utils;
 
 public static class PowershellUtils
 {
